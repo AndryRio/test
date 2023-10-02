@@ -16,6 +16,7 @@
     <button onclick="navigateToVariables()"> Variable Variables </button>
     <button onclick="navigateToDataTypes()"> Data Types & Type Casting </button>
     <button onclick="navigateToFloats()"> Floats </button>
+    <button onclick="navigateToStringsDataType()"> String Data Type </button>
 
     <script> 
 
@@ -37,6 +38,10 @@
 
         function navigateToFloats() {
             window.location.href = 'floats.php';
+        }
+
+        function navigateToStringsDataType() {
+            window.location.href = 'strings_data_type.php';
         }
 
     </script>

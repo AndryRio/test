@@ -44,7 +44,6 @@
 
         //INF
         $y = PHP_FLOAT_MAX * 2;
-
         var_dump(is_finite($y));
 
         var_dump($y);
