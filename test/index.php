@@ -17,6 +17,8 @@
     <button onclick="navigateToDataTypes()"> Data Types & Type Casting </button>
     <button onclick="navigateToFloats()"> Floats </button>
     <button onclick="navigateToStringsDataType()"> String Data Type </button>
+    <br /><br />
+    <button onclick="navigateToArrayDataType()"> Array Data Type </button>
 
     <script> 
 
@@ -42,6 +44,9 @@
 
         function navigateToStringsDataType() {
             window.location.href = 'strings_data_type.php';
+        }
+        function navigateToArrayDataType() {
+            window.location.href = 'array_data_type.php';
         }
 
     </script>
