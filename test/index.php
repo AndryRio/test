@@ -19,6 +19,7 @@
     <button onclick="navigateToStringsDataType()"> String Data Type </button>
     <br /><br />
     <button onclick="navigateToArrayDataType()"> Array Data Type </button>
+    <button onclick="navigateToPhpOperators()"> PHP Operators </button>
 
     <script> 
 
@@ -48,6 +49,10 @@
         function navigateToArrayDataType() {
             window.location.href = 'array_data_type.php';
         }
+        function navigateToPhpOperators(){
+            window.location.href = 'php_operators.php';
+        }
+        
 
     </script>
 
