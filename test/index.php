@@ -20,6 +20,7 @@
     <br /><br />
     <button onclick="navigateToArrayDataType()"> Array Data Type </button>
     <button onclick="navigateToPhpOperators()"> PHP Operators </button>
+    <button onclick="navigateToLoops()"> Loops </button>
 
     <script> 
 
@@ -52,7 +53,9 @@
         function navigateToPhpOperators(){
             window.location.href = 'php_operators.php';
         }
-        
+        function navigateToLoops(){
+            window.location.href = 'loops.php';
+        }
         
 
     </script>
