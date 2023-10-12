@@ -22,6 +22,7 @@
     <button onclick="navigateToPhpOperators()"> PHP Operators </button>
     <button onclick="navigateToLoops()"> Loops </button>
     <button onclick="navigateToSwitchStatement()"> Switch Statement </button>
+    <button onclick="navigateToMatchExpression()"> Match Expression </button>
 
     <script> 
 
@@ -59,6 +60,9 @@
         }
         function navigateToSwitchStatement() {
             window.location.href = 'switch_statement.php';
+        }
+        function navigateToMatchExpression() {
+            window.location.href = 'match_expression.php';
         }
         
 
