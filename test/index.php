@@ -23,6 +23,9 @@
     <button onclick="navigateToLoops()"> Loops </button>
     <button onclick="navigateToSwitchStatement()"> Switch Statement </button>
     <button onclick="navigateToMatchExpression()"> Match Expression </button>
+    <button onclick="nagigatoToReturnDeclareTickableStatements()"> Return, Declare & Tickable Statements </button>
+    <br /><br />
+
 
     <script> 
 
@@ -63,6 +66,9 @@
         }
         function navigateToMatchExpression() {
             window.location.href = 'match_expression.php';
+        }
+        function nagigatoToReturnDeclareTickableStatements () {
+            window.location.href = 'return_declare_tickable_statements.php';
         }
         
 
