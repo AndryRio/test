@@ -23,8 +23,10 @@
     <button onclick="navigateToLoops()"> Loops </button>
     <button onclick="navigateToSwitchStatement()"> Switch Statement </button>
     <button onclick="navigateToMatchExpression()"> Match Expression </button>
-    <button onclick="nagigatoToReturnDeclareTickableStatements()"> Return, Declare & Tickable Statements </button>
+    <button onclick="nagigateToReturnDeclareTickableStatements()"> Return, Declare & Tickable Statements </button>
     <br /><br />
+    <button onclick="navigateToIncludeRequire()"> Include and Require </button>
+    <button onclick="navigateToHtmlTest()"> Html Test </button>
 
 
     <script> 
@@ -67,8 +69,14 @@
         function navigateToMatchExpression() {
             window.location.href = 'match_expression.php';
         }
-        function nagigatoToReturnDeclareTickableStatements () {
+        function nagigateToReturnDeclareTickableStatements () {
             window.location.href = 'return_declare_tickable_statements.php';
+        }
+        function navigateToIncludeRequire () {
+            window.location.href = 'include_require.php';
+        }
+        function navigateToHtmlTest() {
+            window.location.href = 'home_test.php';
         }
         
 
