@@ -27,6 +27,7 @@
     <br /><br />
     <button onclick="navigateToIncludeRequire()"> Include and Require </button>
     <button onclick="navigateToHtmlTest()"> Html Test </button>
+    <button onclick="navigateToFunctions()"> Functions </button>
 
 
     <script> 
@@ -77,6 +78,9 @@
         }
         function navigateToHtmlTest() {
             window.location.href = 'home_test.php';
+        }
+        function navigateToFunctions() {
+            window.location.href = 'functions.php';
         }
         
 
