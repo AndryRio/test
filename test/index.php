@@ -29,6 +29,7 @@
     <button onclick="navigateToHtmlTest()"> Html Test </button>
     <button onclick="navigateToFunctions()"> Functions </button>
     <button onclick="navigateToFunctionParameters()"> Function Parameters </button>
+    <button onclick="navigateToVariableScopes()"> Variable Scopes </button>
 
 
     <script> 
@@ -85,6 +86,9 @@
         }
         function navigateToFunctionParameters() {
             window.location.href = 'function_parameters.php';
+        }
+        function navigateToVariableScopes() {
+            window.location.href = 'variable_scopes.php';
         }
         
 
