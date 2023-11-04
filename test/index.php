@@ -30,6 +30,7 @@
     <button onclick="navigateToFunctions()"> Functions </button>
     <button onclick="navigateToFunctionParameters()"> Function Parameters </button>
     <button onclick="navigateToVariableScopes()"> Variable Scopes </button>
+    <button onclick="navigateToFunctionTypes()"> Function Types </button>
 
 
     <script> 
@@ -90,6 +91,10 @@
         function navigateToVariableScopes() {
             window.location.href = 'variable_scopes.php';
         }
+        function navigateToFunctionTypes() {
+            window.location.href = 'function_types.php';
+        }
+        
         
 
     </script>
