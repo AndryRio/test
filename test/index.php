@@ -31,6 +31,9 @@
     <button onclick="navigateToFunctionParameters()"> Function Parameters </button>
     <button onclick="navigateToVariableScopes()"> Variable Scopes </button>
     <button onclick="navigateToFunctionTypes()"> Function Types </button>
+    <br /><br />
+    <button onclick="navigateToDateTimeZones()"> Date & Time Zones </button>
+
 
 
     <script> 
@@ -93,6 +96,9 @@
         }
         function navigateToFunctionTypes() {
             window.location.href = 'function_types.php';
+        }
+        function navigateToDateTimeZones() {
+            window.location.href = 'date_time_zones.php';
         }
         
         
