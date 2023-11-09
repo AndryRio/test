@@ -33,6 +33,7 @@
     <button onclick="navigateToFunctionTypes()"> Function Types </button>
     <br /><br />
     <button onclick="navigateToDateTimeZones()"> Date & Time Zones </button>
+    <button onclick="navigatToArrays()"> Arrays </button>
 
 
 
@@ -99,6 +100,9 @@
         }
         function navigateToDateTimeZones() {
             window.location.href = 'date_time_zones.php';
+        }
+        function navigatToArrays() {
+            window.location.href = 'arrays.php';
         }
         
         
