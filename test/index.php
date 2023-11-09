@@ -34,6 +34,7 @@
     <br /><br />
     <button onclick="navigateToDateTimeZones()"> Date & Time Zones </button>
     <button onclick="navigatToArrays()"> Arrays </button>
+    <button onclick="navigateToErrorHandling()"> Error Handling </button>
 
 
 
@@ -103,6 +104,9 @@
         }
         function navigatToArrays() {
             window.location.href = 'arrays.php';
+        }
+        function navigateToErrorHandling() {
+            window.location.href = 'error_handling.php';
         }
         
         
